@@ -18,9 +18,9 @@ Design: [Coming soon](https://cdn.discordapp.com/attachments/850245533838868480/
 ## 🎯 Project features/goals
 
 -   Github pages
--   responsive design
+-   Responsive design
 -   CSS animation
--   form
+-   Form
 -   FontAwesome icons
 -   CSS units: vh, vw, vmin, vmax
 
