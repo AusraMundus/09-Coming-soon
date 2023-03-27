@@ -1,5 +1,6 @@
 .clock {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     color: white
 }
@@ -9,7 +10,7 @@
 }
 
 .clock > .time > .value {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
 }
 

@@ -25,12 +25,13 @@
 @keyframes scrolling {
     0% {
         top: 3em;
-        opacity: 1;
-        background-color: #fff;
+        background-color: #ffff;
+    }
+    30% {
+        background-color: #ffff;
     }
     100% {
         top: 9em;
-        opacity: 0;
         background-color: #fff0;
     }
 }
