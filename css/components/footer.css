@@ -59,11 +59,13 @@
 .footer .trio p + p::before {
     content: '';
     display: inline-block;
-    width: 3px;
-    height: 30px;
+    width: 1px;
+    height: 25px;
     background-color: #fffa;
     position: absolute;
+    top: 50%;
     left: -15px;
+    transform: translateX(-50%) translateY(-50%); /* supaprastinimas translate(-50%) */
 }
 
 @media (max-width: 700px) {
