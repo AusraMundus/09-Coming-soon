@@ -1,0 +1,30 @@
+.clock {
+    display: flex;
+    width: 100%;
+    color: white
+}
+
+.clock > .time {
+    width: 25%;
+}
+
+.clock > .time > .value {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.clock > .time > .label {
+    text-transform: uppercase;
+}
+
+@media (max-witdh: 700px) {
+    .clock > .time {
+        width: 50%;
+    }
+}
+
+@media (max-witdh: 400px) {
+    .clock > .time {
+        width: 100%;
+    }
+}
