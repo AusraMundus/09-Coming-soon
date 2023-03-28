@@ -72,9 +72,7 @@
     .footer .trio {
         flex-direction: column;
     }
-    .footer .trio p {
-        position: static;
+    .footer .trio p + p::before {
+        display: none;
     }
 }
-
-/* footer pakoreguoti */
