@@ -1,0 +1,15 @@
+.btn {
+    padding: 0.5em 1.5em;
+    background-color: rgba(255, 0, 0, 0.563);
+    color: #fff;
+    font-size: 20px;
+    line-height: 1em;
+    border-radius: 0.2em;
+    box-shadow: 0 0.2em 0.2em #0005;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: #f00;
+    box-shadow: 0 0.1em 0.25em #0007;
+}
