@@ -7,6 +7,7 @@
 @import '../components/button.css';
 @import '../components/clock.css';
 @import '../components/footer.css';
+@import '../components/form.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
 /* CUSTOM */
@@ -30,15 +31,20 @@
 }
 
 .hero .logo {
-    height: 50px;
+    height: 30px;
 }
-
 .hero .title {
-    font-size: 80px;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
 }
-
 .hero .description {
     font-size: 20px;
+    color: #aaa;
+}
+
+.hero .form .btn {
+    margin: auto;
 }
 
 .content-title {
@@ -46,15 +52,20 @@
     font-size: 17px;
 }
 .content-description {
-    color: #555;
-    font-size: 18px;
+    color: #aaa;
+    font-size: 16px;
+    line-height: 1.5em;
 }
 .content-description > a {
-    color: red;
+    color: #fd6363;
     text-decoration: none;
 }
 .content-description > a:hover {
     text-decoration: underline;
+}
+
+.main-content .form .btn {
+    margin-left: auto;
 }
 
 @media (max-width: 600px) {
@@ -69,6 +80,6 @@
 .red {
     width: 60px;
     height: 60px;
-    background-color: red;
+    background-color: #fd6363;
     position: absolute;
 }

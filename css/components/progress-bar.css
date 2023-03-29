@@ -12,15 +12,17 @@
 }
 
 .progress-bar > .top > .label {
+    color: #aaa;
 }
 
 .progress-bar > .top >.value {
+    color: #aaa;
 }
 
 .progress-bar > .progress {
     width: 100%;
-    height: 10px;
-    background-color: lightgrey;
+    height: 5px;
+    background-color: #aaa;
     overflow: hidden;
 }
 

@@ -17,28 +17,25 @@
     padding: 10px;
     border-bottom: 1px solid #fff;
 }
-
 .footer .socials > .social {
     width: 50px;
     height: 50px;
     line-height: 50px;
     text-align: center;
     border-radius: 50%;
-    color: white;
+    color: #fff;
     font-size: 20px;
     text-decoration: none;
     transition: all 0.3s;
 }
-
 .footer .socials > .social:hover {
     color: #03a9f4;
-    background-color: white;
+    background-color: #fff;
 }
 
 .footer .row {
     position: relative;
 }
-
 .back-to-top {
     position: absolute;
     top: -1em;
@@ -54,7 +51,6 @@
     text-align: center;
     line-height: 1.8em;
 }
-
 .footer > .short-row a {
     color: #fff;
 }
@@ -63,21 +59,19 @@
     display: flex;
     gap: 0 30px;
 }
-
 .footer .trio p {
     position: relative;
 }
-
 .footer .trio p + p::before {
     content: '';
     display: inline-block;
-    width: 1px;
-    height: 25px;
-    background-color: #fffa;
+    width: 2px;
+    height: 14px;
+    background-color: #fff;
     position: absolute;
-    top: 50%;
     left: -15px;
-    transform: translateX(-50%) translateY(-50%); /* supaprastinimas translate(-50%) */
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 700px) {
